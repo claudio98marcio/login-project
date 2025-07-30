@@ -6,10 +6,10 @@
 
 :root{
     --base-color: hsl(191, 95%, 8%);
-    --fst-color: hsl(from var(--base-color) h s calc(l+10));
-    --snd-color: hsl(from var(--base-color) h s calc(l+20));
-    --base-drk: hsl(from var(--base-color) h s calc(l-4));
-    --base-blc: hsl(from var(--base-color) h s calc(l-8));
+    --fst-color: hsl(from var(--base-color) h s calc(l + 10));
+    --snd-color: hsl(from var(--base-color) h s calc(l + 20));
+    --base-drk: hsl(from var(--base-color) h s calc(l - 4));
+    --base-blc: hsl(from var(--base-color) h s calc(l - 8));
 }
 
 body{
