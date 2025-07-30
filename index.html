@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/s001.css">
     <title>Log in</title>
 </head>
 <body>
     <main>
-        <section>
-            <div>
-                <img src="" alt="">
-            </div>
+        <section id="login-box">
             <div>
                 <h1>Log in</h1>
                 <p>Welcome!</p>
                 <form action="login.php" method="post">
-                    
+                    <p>Log in</p>
+                    <input type="text" maxlength="14" required>
+                    <p>Password</p>
+                    <input type="password" maxlength="14" required><br>
                 </form>
+                
+            </div>
+            <div>
+                <p>New here? Create accont <a href="" rel="create" target="_self">here</a></p>
+                <p><a href="" rel="forgot" target="_self">Forgot password?</a></p>
             </div>
         </section>
     </main>
