@@ -14,16 +14,18 @@
                 <h1>CAM with you</h1>
                 <p>Welcome driver!</p>
                 <form action="login.php" method="post">
-                    <p>Log in</p>
-                    <input type="text" maxlength="14" required>
-                    <p>Password</p>
-                    <input type="password" maxlength="14" required><br>
+                    <label for="iusername">Username</label>
+                    <input type="text" maxlength="14" required id="iusername"><br>
+
+                    <label for="iemail">Email</label>
+                    <input type="text" maxlength="14" required id="iemail"><br>
+
+                    <label for="ipassword">Password</label>
+                    <input type="text" maxlength="14" required id="password">
                 </form>
-                
             </div>
             <div>
-                <p>New here? Create account <a href="./new-account.html" rel="create" target="_self">here</a></p>
-                <p><a href="./forgot-page.html" rel="forgot" target="_self">Forgot password?</a></p>
+              <input type="submit" value="Submit">
             </div>
         </section>
     </main>
