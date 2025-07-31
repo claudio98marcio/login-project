@@ -25,6 +25,7 @@ body{
     height: 350px;
     position: absolute;
     top: 10vw;
+    right: 2vh;
     background-color: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -75,5 +76,5 @@ div > p > a{
     width: 150px;
     height: 150px;
     border-radius: 150px;
-    background-color: blue;
+    background-color: green;
 }
