@@ -13,21 +13,19 @@
 }
 
 body{
+    height: 100vh;
     background-image: url(../image/highway-wallpaper-768.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-}
-
-main{
-    height: 100vh;
+    background-position: bottom center;
     position: relative;
 }
 
 #login-box{
-    width: 400px;
-    height: 320px;
+    width: 60vw;
+    height: 60vh;
     position: absolute;
-    top: 22%;
+    top: 10vw;
+    left: 15vh;
     background-color: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -40,7 +38,8 @@ div > h1{
     text-align: center;
     font-size: 2em;
     margin-top: 10px;
-    color: var(--fst-color);
+    color: var(--snd-color);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 div > p{
@@ -66,6 +65,7 @@ input{
 }
 
 div > p > a{
-    color: var(--fst-color);
+    color: var(--snd-color);
     text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
