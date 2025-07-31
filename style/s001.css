@@ -21,8 +21,8 @@ body{
 }
 
 #login-box{
-    width: 80vw;
-    height: 60vh;
+    width: 300px;
+    height: 350px;
     position: absolute;
     top: 10vw;
     left: 5vh;
@@ -68,4 +68,14 @@ div > p > a{
     color: var(--snd-color);
     text-decoration: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#ball{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background-color: red;
 }
