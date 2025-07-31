@@ -21,11 +21,11 @@ body{
 }
 
 #login-box{
-    width: 300px;
-    height: 350px;
+    width: 400px;
+    height: 320px;
     position: absolute;
     top: 10vw;
-    left: 3vw;
+    left: 22vh;
     background-color: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -68,13 +68,4 @@ div > p > a{
     color: var(--snd-color);
     text-decoration: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-
-#ball{
-    position: absolute;
-    top: 55%;
-    width: 150px;
-    height: 150px;
-    border-radius: 150px;
-    background-color: brown;
 }
