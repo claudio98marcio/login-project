@@ -13,9 +13,7 @@
 }
 
 body{
-    height: 100vh;
-    background-image: url(../image/highway-wallpaper.jpg);
-    background-size: 1500px;
+    background-image: url(../image/highway-wallpaper-768.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -27,7 +25,7 @@ main{
 
 #login-box{
     width: 400px;
-    height: 300px;
+    height: 320px;
     position: absolute;
     top: 22%;
     left: 10%;
@@ -38,11 +36,12 @@ main{
     box-shadow: 2,5px 5px 5px 0 hsl(0, 0%, 0%);
 }
 
-h1{
+
+div > h1{
     text-align: center;
     font-size: 2em;
     margin-top: 10px;
-    color: var(--base-drk);
+    color: var(--fst-color);
 }
 
 div > p{
@@ -61,6 +60,13 @@ form > p{
 
 input{
     background-color: rgba(255, 255, 255, 0);
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
+    border: 2px solid var(--fst-color);
+    border-radius: 20px;
+    height: 25px;
+    width: 200px;
+}
+
+div > p > a{
+    color: var(--fst-color);
+    text-decoration: none;
 }
