@@ -1,4 +1,12 @@
-@media screen and (min-width: 768px){
+:root{
+    --base-color: hsl(191, 95%, 8%);
+    --fst-color: hsl(from var(--base-color) h s calc(l + 10));
+    --snd-color: hsl(from var(--base-color) h s calc(l + 20));
+    --base-drk: hsl(from var(--base-color) h s calc(l - 4));
+    --base-blc: hsl(from var(--base-color) h s calc(l - 8));
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
     #login-box{
         width: 80vw;
         height: 40vh;
@@ -14,5 +22,34 @@
         float: right;
         padding: 0 50px 0 0;
         font-size: 1.5em;
+    }
+
+    body{
+        background-image: none;
+        background-image: linear-gradient(to top, var(--base-blc) ,var(--fst-color), var(--snd-color));
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #login-box{
+        width: 1000px;
+        height: 300px;
+    }
+
+    #welcome{
+        float: left;
+        padding: 70px 0 0 50px;
+        font-size: 1.5em;
+    }
+
+    #formulary{
+        float: right;
+        padding: 0 50px 0 0;
+        font-size: 1.5em;
+    }
+
+    body{
+        background-image: none;
+        background-image: linear-gradient(to top, var(--base-blc) ,var(--fst-color), var(--snd-color));
     }
 }
