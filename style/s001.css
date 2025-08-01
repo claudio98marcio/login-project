@@ -27,6 +27,8 @@ main{
 }
 
 #login-box{
+    width: 300px;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -73,7 +75,7 @@ input{
     width: 200px;
 }
 
-div > p > a{
+div > form > p > a{
     color: var(--snd-color);
     text-decoration: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
